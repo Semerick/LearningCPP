@@ -19,7 +19,7 @@ int main() {
     int b = 5;
     int c = a * b;
     cout << a << " \\ \"multiplied\" by " << b << " equals " << c;
-    */
+    
 
     bool remiIsCute = true;
 
@@ -37,5 +37,12 @@ int main() {
     } else { 
         cout << "I don't know how that's possible, Walter \n";
     }
-        
+*/
+
+    int dollarsList [5] = {2, 4, 6, 8, 1};
+
+    for (int x = 0; x <=  4; x++) { 
+        cout << dollarsList[x];
+        cout << "\n";
+    }
 }
